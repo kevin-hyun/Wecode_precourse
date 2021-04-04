@@ -1,0 +1,95 @@
+
+/* main banner sizing */
+
+body{
+    background-color:rgb(139, 184,238, 0.1);
+    font-family: 'Nanum Gothic Coding', monospace;
+    
+}
+
+.mainContainer{
+    display:grid;
+    grid-gap: 20px;
+}
+
+#item{
+    align-items: center;
+}
+
+
+.mainBanner{
+    width: 50px;
+    height: 100px;
+    object-fit: contain;
+    margin: 25px;
+    opacity: 1;
+    display: block;
+    
+}
+
+.welcomeMent{
+    margin-top: 300px;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 25px
+}
+
+
+.circleBtn{
+    margin-top: 60px;
+    margin-bottom: 120px;
+    display: inline-block;
+    
+
+}
+
+.button1{
+    margin: 40px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color:rgb(238, 232, 139,0.6);
+    color: black;
+    border-radius: 100%;
+    outline: 0;
+    border: 0;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 45px;
+
+}
+
+.button2{
+    margin: 40px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color:rgb(238, 232, 139,0.6);
+    color: black;
+    border-radius: 100%;
+    outline: 0;
+    border: 0;
+    font-size: 45px;
+
+}
+
+.button3{
+    margin: 40px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: rgb(238, 232, 139, 0.6);
+    color: black;
+    border-radius: 100%;
+    outline: 0;
+    border: 0;
+    font-size: 45px;
+
+}
+
+
+.career{
+    margin: 300px ;
+}
+
+
+
+
