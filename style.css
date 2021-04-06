@@ -1,9 +1,22 @@
 
-/* main banner sizing */
+
+
+.menuBar{
+    display: block;
+    width:auto;
+    height: 50px;
+    background-color:rgb(238, 232, 139,0.6);
+}
+.menuBar img{
+    margin-top: 2px;
+    padding:5px;
+    
+}
+
 
 body{
     background-color:rgb(139, 184,238, 0.1);
-    font-family: 'Nanum Gothic Coding', monospace;
+    font-family: 'Noto Sans KR', sans-serif;
     
 }
 
@@ -20,12 +33,13 @@ body{
     object-fit: scale-down;
     margin: 25px;
     opacity: 1;
-    display: inline-block;
+    display: block;
+    margin-top: 25px;
     
 }
 
 .welcomeMent{
-    margin-top: 200px;
+    margin-top: 100px;
     font-family: 'Do Hyeon', sans-serif;
     font-size: 25px
 }
@@ -35,8 +49,6 @@ body{
     margin-top: 60px;
     margin-bottom: 120px;
     display: inline-block;
-    
-
 }
 
 .button1, .button2, .button3{
@@ -49,75 +61,98 @@ body{
     border-radius: 100%;
     outline: 0;
     border: 0;
-    font-family: 'Nanum Gothic Coding';
+    font-family: 'Nanum Gothic Coding';   
+}
+.button1 h1,.button2 h1, .button3 h1 {
     font-size: 45px;
+}
 
+.button1 p, .button2 p, .button3 p{
+    font-size:18px;
+}
+
+.button1 a, .button2 a, .button3 a{
+    color: black;
+    text-decoration: none;
+    
 }
 
 
 .career{
-    margin: 300px ;
+    margin: 200px ;
     box-sizing: border-box;
   }
-.careerBanner{
+.careerBanner, .hobbyBanner, .TMIBanner {
     width: 800px;
     height: 100px;
     margin:10vh;
     background-color: rgb(238, 232, 139, 0.6);
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.6);
     font-size: 40px;
     text-align:center;
-    margin-left: 150px
-
-
-}
-
-.hobbyBanner{
-    width: 800px;
-    height: 100px;
-    margin:10vh;
-    background-color: rgb(238, 232, 139, 0.6);
-    font-size: 40px;
-    text-align:center;
-    margin-left: 100px
-
-
-}
-
-.TMI5Banner {
-    width: 800px;
-    height: 100px;
-    margin:10vh;
-    background-color: rgb(238, 232, 139, 0.6);
-    font-size: 40px;
-    text-align:center;
-    margin-left: 450px
-
-
+    margin-left: 100px;
 }
 
 
 #careerContent{
     border-radius: 20px;
     background-color: rgb(0, 250, 154, 0.6);
-    box-shadow: 10px 10px #999 ;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.6);
     text-align: center;
     margin: 60px;
-    margin-left : 70px;
+    margin-left : 60px;
     
 }
-
 .hobbyContainer{
     display: grid;
-    
+    grid-template-columns: 1fr 1fr ;
+    margin-bottom: 25vh;
+
 }
+
 
 
 .hobbyContainer1, .hobbyContainer2, .hobbyContainer3, .hobbyContainer4{
     border-radius: 20px;
     background-color: rgb(0, 250, 154, 0.6);
-    box-shadow: 10px 10px #999 ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    max-width: 500px;
+    margin:30px;
+    margin-right: 10px;
     text-align: center;
-    margin: 60px;
-    margin-left : 70px;
-    
+    display:inline-block; /* 문제해결!- 블로그 포스팅하기 */
+    position: relatiive;
+}
+
+
+
+
+
+
+
+.hobbyContainer1 h2,.hobbyContainer2 h2,.hobbyContainer3 h2,.hobbyContainer4 h2 {
+    font-weight: bold;
+}
+
+.hobbyContainer1 img,.hobbyContainer2 img, .hobbyContainer3 img, .hobbyContainer4 img  {
+    margin: 25px;
+}
+
+
+
+.hobbyContainer2 img, .hobbyContainer3 img, .hobbyContainer4 img  {
+    margin: 30px;
+}
+
+.hobbyContent{
+    padding: 20px;
+}
+
+.slideshow{
+    margin-bottom: 10vh;
+    margin-left: 15%;
+}
+
+.empty{
+    margin:50vh;
 }
