@@ -43,12 +43,33 @@ body{
     font-size: 25px
 }
 
+.m17{
+    position : relative;
+    font-weight: 900;
+    font-size: 3.7em;
+}
+.m17 .text-wrapper{
+    position: relative;
+    display: inline-block;
+    padding-top:0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+.ml7 .letter {
+    transform-origin: 0 100%;
+    display: inline-block;
+    line-height: 1em;
+  }
+
+
 
 .circleBtn{
     margin-top: 60px;
     margin-bottom: 120px;
     display: inline-block;
 }
+
 
 .button1, .button2, .button3{
     margin: 40px;
@@ -61,6 +82,8 @@ body{
     outline: 0;
     border: 0;
     font-family: 'Nanum Gothic Coding';   
+   
+
 }
 .button1 h1,.button2 h1, .button3 h1 {
     font-size: 45px;
@@ -75,6 +98,7 @@ body{
     text-decoration: none;
     
 }
+
 
 
 .career{
@@ -151,6 +175,18 @@ body{
     margin-bottom: 10vh;
     margin-left: 15%;
 }
+
+.randomBTN{
+    width:10vh;
+    height:10vh;
+    margin-left: 5vh;
+
+}
+
+.mySlides{
+    opacity: 0;
+}
+
 
 .empty{
     margin:50vh;

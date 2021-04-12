@@ -34,10 +34,12 @@
             <img src = "./img/lyingDown.jpg" width = "1200" , height="300">
         
         </div>
-
+        
         <div id = item class="welcomeMent">
-            <h1>Kevin's Room에 오신 것을 환영합니다. 
+            <h1>
+               <span class ="letter">Kevin's Room에 오신 것을 환영합니다.</span>
             </h1>
+
         </div>
         
         <div id = item  class= "circleBtn">
@@ -67,31 +69,22 @@
             <h2>2019.08~2019.12</h2>
             <p>데이터분석 양성과정에서 처음 코딩을 접했습니다 (오옷 신세계!- 국비는 별로에요ㅠ) 🌟 </p>
         </div>
-
-
         <div id = careerContent class = "content2">
             <h2>2019.12~ 2020.02</h2>
             <p>미소(MISO) O2O 스타트업에서 이사(MOVING part) 인턴으로 근무를 했습니다. (메뉴얼한 작업들의 현타가 많이 왔습니다 😫 ) </p>
         </div>
-
         <div id = careerContent class = "content3">
             <h2>2020.03~ 2020.05</h2>
             <p>푸르덴셜 생명보험사에서 세일즈전문가 과정을 수료했습니다. (보험설계사 인턴인줄 모르고 ... 😭)</p>
         </div>
-
-
         <div id = careerContent class = "content4">
             <h2>2020.08~ 2020.01</h2>
             <p>토스인슈어런스에서 보험분석전문가로 상담을 했습니다.(공채 뚫은 정규직이었습니다!! 보험지식 풍부합니다. 물어봐주세요 😆 )</p>
         </div>
-
         <div id = careerContent class = "content5">
             <h2>2020.02~</h2>
             <p>개발자가 되기 위해서 망망대해를 헤엄치는 중 (아 너무나 넓어라! 🏊🏻) </p>
         </div>
-    
-        
-
     </div>
 
         
@@ -109,13 +102,9 @@
                 <div class =hobbyContainer2>
                     <img class="hobbyImage" src = "./img/braum.png" width=400 height = 300> 
                     <h2>🌟게임🌟</h2>
-                    <div class = "hobbyContent"> 롤을 좋아하지만 제 멘탈을 위해서 칼바람만 합니다.<br>(탱커 재질 🛡) </div>
-                
-
-                    
+                    <div class = "hobbyContent"> 롤을 좋아하지만 제 멘탈을 위해서 칼바람만 합니다.<br>(탱커 재질 🛡) </div>   
                 </div>
-            
-                <div class =hobbyContainer3>
+                 <div class =hobbyContainer3>
                     <img class="hobbyImage" src = "./img/ebook.jpg" width=400 height = 300> 
                     <h2>🌟Ebook🌟</h2>
                     <div class = "hobbyContent">핸드폰으로 책을 읽는 것을 좋아합니다. <br>종이책의 질감을 좋아하지만 무거워서 안보게 되더라구요.... </div>
@@ -125,8 +114,7 @@
                 <div class =hobbyContainer4>
                     <img class="hobbyImage" src = "./img/rowing.jpeg"  width=400 height = 300> 
                     <h2>🌟운동🌟</h2>
-                    <div class = "hobbyContent">활동적인 운동을 좋아합니다. <br> 요즘에는 자전거 열심히 타고 맨몸운동 하고 있어요 ~  </div>
-                    
+                    <div class = "hobbyContent">활동적인 운동을 좋아합니다. <br> 요즘에는 자전거 열심히 타고 맨몸운동 하고 있어요 ~  </div> 
                 </div>
             </div>
     </div>
@@ -136,37 +124,14 @@
                 <h2>TMI</h2>
             </div>
             <div class = "slideshow">
+                
                 <div class = "slideshow-contatiner">
-
-                    <!-- Full-width slides/quotes-->
-                    <div clsas = "mySlides">
-                        <q> 1. 아이폰을 제외하고 아이패드, 에어팟, 맥북 다 가지고 있는 혼종(?) 유저입니다. (폰은 갤럭시...🌟)</q>
-                       
-                    </div>
-                    <br>
+                    <button class = "randomBTN" onclick="TMIPopup()">Click</button></button>
+                    <div class= "textSpace"></div>
+                    <script src = "RandomClick.js" ></script>
+                   
                     
-                    <div clsas = "mySlides">
-                        <q> 2. 해장을 할 때는 쌀국수로 해장을 합니다. (쌀국수 먹으러가자하면 좋다고 따라갈 거에요!) </q>
-                       
-                    </div>
-                    <br>
-                
-                    <div clsas = "mySlides">
-                        <q> 3. 같은 값이면 소주 2병 보다는 칵테일 한 잔을 더 선호하는 감성 넘치는 사람입니다. </q>
-                        
-                    </div>
-                    <br>
-                
-                    <div clsas = "mySlides">
-                        <q> 4. 헬스장 운동보다는 공원의 철봉을 더 좋아합니다. (특히 딥스 좋아합니다 .... )</q>
-                       
-                    </div>
-                    <br>
-                    <div clsas = "mySlides">
-                        <q> 5. 제일 좋아하는 캐릭터는 미니언즈의 밥입니다 (에어팟 케이스도 밥! 킹밥!!!!!!)
-                        </q>
-                       
-                    </div>
+                    
             </div>
         </div>
         <div class= "empty"></div>
@@ -175,6 +140,7 @@
 
 </body>    
 
+<scirpt type = "module" src = "movingLetter.js"></scirpt>  
 
 
 
