@@ -6,20 +6,13 @@ var TMI = [
        "제일 좋아하는 캐릭터는 미니언즈의 밥입니다 (에어 팟 케이스도 밥! 킹밥!!!!!!)"];
 var random= Math.floor(Math.random() * TMI.length);
 var result = TMI[random];
-const randmomBTN =document.getElementsByClassName("randomBTN");
-const textSpace = document.getElementsByClassName("textSpace");  
-var num1 = textSpace[0].innerHTML;
+const childspan = document.querySelector('.childspan');
 
 
-
-
-function TMIPopup (){
-
-    var addSpan = document.createElement('span');
-    var addText = document.createTextNode(result);
-    addSpan.appendChild(addText);
-    document.body.appendChild(addSpan);
+function getTMI(){
+    childspan.innertext = `${result}`;
+    window.alert('제 TMI를 알려드리겠습니다! ');
+    document.querySelector('.childspan').innerHTML = result;
 
 }
-
 
